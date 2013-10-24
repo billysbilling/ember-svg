@@ -1,5 +1,4 @@
-var Ember = require('ember'),
-    helper = require('./helper');
+var helper = require('./helper');
 
 module.exports = {
     get: get,
