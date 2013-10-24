@@ -2,11 +2,10 @@
   "name": "ember-svg",
   "version": "0.0.1",
   "homepage": "https://github.com/billysbilling/ember-svg",
-  "main": "src/js/REPLACE-ME.js",
+  "main": "src/js/svg.js",
   "billy-builder": {
     "include": [
-      "src/js",
-      "src/templates"
+      "src/js"
     ]
   },
   "license": "MIT",
