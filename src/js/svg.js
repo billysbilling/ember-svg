@@ -1,11 +1,9 @@
-var get = require('./get'),
-    helper = require('./helper');
+var get = require('./get');
 
 module.exports = {
     get: get,
-    helper: helper,
     registerHelpers: function() {
-        Ember.Handlebars.registerHelper('svg', helper);
-        Ember.Handlebars.registerBoundHelper('svgb', helper);
+        Ember.Handlebars.registerHelper('svg', get);
+        Ember.Handlebars.registerBoundHelper('svgb', get);
     }
 };
