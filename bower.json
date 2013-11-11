@@ -1,6 +1,6 @@
 {
   "name": "ember-svg",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "homepage": "https://github.com/billysbilling/ember-svg",
   "main": "src/js/svg.js",
   "billy-builder": {
