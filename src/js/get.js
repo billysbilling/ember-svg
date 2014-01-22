@@ -13,6 +13,9 @@ module.exports = function(input) {
     title = match[5];
     svg = require('svg')[name];
     Ember.assert('An SVG graphic with name '+name+' does not exist.', svg);
+    if (!svg) {
+        svg = '';
+    }
     if (cls) {
         svg = svg.replace(/<svg/, '<svg class="'+Ember.Handlebars.Utils.escapeExpression(cls)+'"');
     }
